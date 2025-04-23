@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wood"
+        tools:targetApi="31">
+        <activity
+            android:name=".LastSearch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".faqs_activity"
+            android:exported="false" />
+        <activity
+            android:name=".productdetails_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Woodform_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryForm_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Addproduct_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Wishlist_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Myorder_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Editprofile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Accountsettings_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".loadingpage_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

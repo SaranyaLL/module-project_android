@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Woodform_Activity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="415dp"
+        android:layout_height="152dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_toolbar" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Wood Form"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center_horizontal"
+        android:text="Wood Image
+                     Size  :100 × 72"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="92dp"
+        android:text="Wood Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="33dp"
+    android:background="@drawable/edit_text_background"
+    android:ems="10"
+    android:hint="Enter wood name"
+    android:inputType="text"
+    android:padding="12dp"
+    android:textColor="#000000"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="110dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Wood Color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText13" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/edit_text_background"
+    android:ems="10"
+    android:hint="Enter wood color"
+    android:inputType="text"
+    android:padding="12dp"
+    android:textColor="#000000"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="138dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/new_button"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText14" />
+
+    <FrameLayout
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="1.0"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="142dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/cedarwood1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

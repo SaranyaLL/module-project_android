@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faqs_activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="415dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/top_toolbar"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="99dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="40dp"
+            android:text="FAQs"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageView5" />
+
+        <EditText
+            android:id="@+id/editTextText19"
+            android:layout_width="288dp"
+            android:layout_height="51dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="Search for question"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="#000000"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView62" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="33dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@id/editTextText19"
+            app:layout_constraintTop_toTopOf="@id/editTextText19"
+            app:srcCompat="@drawable/searchicon" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="360dp"
+            android:layout_height="159dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+            android:text="How quickly can I get my order delivered?\n\nOrders will be delivered by the date you see on the product page for your location."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText19" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="349dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="18dp"
+            android:text="Do I need to verify my mobilenumber or email address every time I log in?\n\nAs the verification step is a
+one time process, you won't have to do it again once your account is verified."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="370dp"
+            android:layout_height="273dp"
+            android:layout_marginTop="16dp"
+            android:text="What are the modes of
+refund available after
+cancellation?\n\nThe different modes of
+refund available are:
+Payment mode: Cash on
+Delivery
+1. UPI (Amount less than
+Rs 1000) - Refund will be
+processed to the UPI
+account for which UPI ID
+has to be shared
+2. Gift Card (Amount less
+ than Rs 10000) - Refund will
+ be processed to Gift Card
+account
+3. Bank account (IMPS/NEFT) - Refund will be processed to bank account for which bank details have to be shared
+Payment mode: Prepaid
+
+1. Back to source - Refund will be processed to the payment mode(Debit/Credit card, NEFT, UPI) used to pay for the order
+2. Gift Card (Amount less than Rs 10000) - Refund will be processed to Gift Card account."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
